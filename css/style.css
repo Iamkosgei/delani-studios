@@ -104,3 +104,33 @@ html,body
     grid-template-rows: repeat(3,1fr);
     align-items: center
 }
+
+/*What we do */
+
+#what-we-do
+{
+    background: #EFF0E0;
+}
+#what-we-do h1
+{
+    text-align: center;
+    padding: 1rem ;
+    font-size: 1rem;
+}
+#what-we-do img
+{
+    width: 79px;
+    height: 76px;
+}
+.what-we-do-text
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5rem;
+    text-align: center;
+    padding-bottom: 2rem
+}
+.what-we-do-text p
+{
+    font-size: 1rem
+}
