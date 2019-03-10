@@ -134,3 +134,71 @@ html,body
 {
     font-size: 1rem
 }
+
+/* portfolio */
+#portfolio
+{
+    background: #EFF0E0;   
+}
+
+#portfolio h1
+{
+    text-align: center;
+    padding: 2rem;
+    color: #706f6a;
+}
+
+.portfolio
+{
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2,200px);
+
+    grid-gap: 2rem;
+    padding-bottom: 5rem;
+    
+    
+}
+
+.portfolio div:nth-child(1)
+{
+    background: url("/assets/portfolio/work1.jpg") center center/cover no-repeat;
+}
+
+.portfolio div:nth-child(2)
+{
+    background: url("/assets/portfolio/work2.jpg") center center/cover no-repeat;
+}
+
+.portfolio div:nth-child(3)
+{
+    background: url("/assets/portfolio/work3.jpg") center center/cover no-repeat;
+}
+
+.portfolio div:nth-child(4)
+{
+    background: url("/assets/portfolio/work4.jpg") center center/cover no-repeat;
+}
+
+.portfolio div:nth-child(5)
+{
+    background: url("/assets/portfolio/work5.jpg") center center/cover no-repeat;
+}
+
+.portfolio div:nth-child(6)
+{
+    background: url("/assets/portfolio/work6.jpg") center center/cover no-repeat;
+}
+
+.portfolio div:nth-child(7)
+{
+    background: url("/assets/portfolio/work7.jpg") center center/cover no-repeat;
+}
+
+.portfolio div:nth-child(8)
+{
+    background: url("/assets/portfolio/work8.jpg") center center/cover no-repeat;
+}
