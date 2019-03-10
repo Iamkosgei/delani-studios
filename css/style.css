@@ -114,13 +114,13 @@ html,body
 #what-we-do h1
 {
     text-align: center;
-    padding: 1rem ;
+    padding: 3rem  0;
     font-size: 1rem;
 }
 #what-we-do img
 {
-    width: 79px;
-    height: 76px;
+    width: 60px;
+    height: 60px;
 }
 .what-we-do-text
 {
@@ -259,4 +259,25 @@ html,body
 .contact textarea::placeholder
 {
     color: white;
+}
+
+/*footer */
+#main-footer
+{
+    background: #EFF0E0
+}
+
+.footer
+{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    text-align: center;
+    color: #3d3b3c;
+}
+.social 
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
 }
