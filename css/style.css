@@ -13,7 +13,7 @@ html,body
 {
     height: 100vh;
     width: 100%;
-    background: url("/assets/backgrounds/h_img.jpg") center center/cover no-repeat;
+    background: url("../assets/backgrounds/h_img.jpg") center center/cover no-repeat;
 
     display: flex;
     justify-content: center;
@@ -87,7 +87,7 @@ html,body
 /* services */
 #services
 {
-    background: url("/assets/backgrounds/s_image.jpg") center center/cover no-repeat;
+    background: url("../assets/backgrounds/s_image.jpg") center center/cover no-repeat;
     color: white
 }
 
@@ -163,42 +163,42 @@ html,body
 
 .portfolio div:nth-child(1)
 {
-    background: url("/assets/portfolio/work1.jpg") center center/cover no-repeat;
+    background: url("../assets/portfolio/work1.jpg") center center/cover no-repeat;
 }
 
 .portfolio div:nth-child(2)
 {
-    background: url("/assets/portfolio/work2.jpg") center center/cover no-repeat;
+    background: url("../assets/portfolio/work2.jpg") center center/cover no-repeat;
 }
 
 .portfolio div:nth-child(3)
 {
-    background: url("/assets/portfolio/work3.jpg") center center/cover no-repeat;
+    background: url("../assets/portfolio/work3.jpg") center center/cover no-repeat;
 }
 
 .portfolio div:nth-child(4)
 {
-    background: url("/assets/portfolio/work4.jpg") center center/cover no-repeat;
+    background: url("../assets/portfolio/work4.jpg") center center/cover no-repeat;
 }
 
 .portfolio div:nth-child(5)
 {
-    background: url("/assets/portfolio/work5.jpg") center center/cover no-repeat;
+    background: url("../assets/portfolio/work5.jpg") center center/cover no-repeat;
 }
 
 .portfolio div:nth-child(6)
 {
-    background: url("/assets/portfolio/work6.jpg") center center/cover no-repeat;
+    background: url("../assets/portfolio/work6.jpg") center center/cover no-repeat;
 }
 
 .portfolio div:nth-child(7)
 {
-    background: url("/assets/portfolio/work7.jpg") center center/cover no-repeat;
+    background: url("../assets/portfolio/work7.jpg") center center/cover no-repeat;
 }
 
 .portfolio div:nth-child(8)
 {
-    background: url("/assets/portfolio/work8.jpg") center center/cover no-repeat;
+    background: url("../assets/portfolio/work8.jpg") center center/cover no-repeat;
 }
 
 
@@ -206,7 +206,7 @@ html,body
 #contact-us
 {
     height: 50vh;
-    background: url("/assets/backgrounds/c_image.jpg") center center/cover no-repeat;
+    background: url("../assets/backgrounds/c_image.jpg") center center/cover no-repeat;
 }
 
 #contact-us h1
@@ -280,4 +280,62 @@ html,body
     display: flex;
     justify-content: space-between;
     padding-bottom: 2rem;
+}
+
+/*  making it responsive */
+@media(max-width :786px)
+{
+    .welcome
+    {
+        font-size: 2rem;
+    }
+    
+    .about-us-text
+    {
+        width: 100%;
+        grid-template-rows: 1fr 2fr 2fr;
+    }
+    .services-text
+    {
+        width: 100%;
+        grid-template-rows: 1fr 2fr 2fr;
+    }
+    .what-we-do-text
+    {
+        flex-direction: column;
+        padding: 1rem 0.5rem;
+    }
+    .what-we-do-text div
+    {
+        padding: 1rem 0;
+    }
+    .portfolio
+    {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8,200px);
+    }
+    .social 
+    {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 1rem
+
+    }
+    .contact
+    {
+        padding: 1rem;
+    }
+    .contact div input
+    {
+        box-sizing:border-box;
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .contact div
+    {
+        flex-direction: column;
+        justify-content: space-around
+    }
+    
 }
